@@ -2,7 +2,7 @@
   <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
     <a href="{{ route('index.index') }}" class="logo d-flex align-items-center me-auto">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
+      
       <img src="{{ asset('images/logo.png') }}" alt="">
       <h1 class="sitename"><span style="color: #70BE42;">CACTUS</span><span style="color: #08AAE9;">NANO</span></h1>
     </a>
@@ -64,12 +64,7 @@
 
         <li><a href="{{ route('index.news') }}" class="{{ Request::is('news') || Request::is('news/*') ? 'active' : '' }}">News</a></li>
 
-        <!-- <li class="dropdown"><a href="#"><span>News & Events</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
-            <li><a href="{{ route('index.news') }}">News</a></li>
-            <li><a href="{{ route('index.events') }}">Events</a></li>
-          </ul>
-        </li> -->
+        
         
 
         {{-- <li class="dropdown"><a href="#"><span>Sustainability</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
