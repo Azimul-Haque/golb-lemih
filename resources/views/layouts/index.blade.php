@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-  <title>@yield('title') | CactusNANO</title>
+  <title>@yield('title') | Blog</title>
   <meta name="description" content="Cactus Nano develops powerful, long-lasting antimicrobial, antifouling technology for applications in water filters, water storage and distribution systems, and consumer products." />
 
   <link rel="canonical" href="index.html" />
