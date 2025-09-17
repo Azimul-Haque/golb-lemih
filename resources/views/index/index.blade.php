@@ -8,7 +8,7 @@
 @section('content')
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-
+      
       {{-- <img src="{{ asset('vendor/dewi/assets/img/hero-bg.jpg') }}" alt="" data-aos="fade-in"> --}}
       {{-- <img src="{{ asset('images/ElectNano-Gif-compressed.webp') }}" alt="CactusNANO - develops powerful, long-lasting antimicrobial, antifouling technology" data-aos="fade-in"> --}}
       <video autoplay loop muted playsinline class="position-absolute w-100 h-100 object-fit-cover" style="z-index: 0;">
