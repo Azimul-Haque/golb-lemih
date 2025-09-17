@@ -74,18 +74,17 @@
   {{-- <script type="text/javascript" src="{{ asset('vendor/wp-content/plugins/flying-pages/flying-pages.min3575.js') }}" id="flying-pages-js" defer></script> --}}
 
   <!-- Vendor JS Files -->
-  <script src="{{ asset('vendor/dewi/assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-  {{-- <script src="{{ asset('vendor/dewi/assets/vendor/php-email-form/validate.js') }}"></script> --}}
-  <script src="{{ asset('vendor/dewi/assets/vendor/aos/aos.js') }}"></script>
-  <script src="{{ asset('vendor/dewi/assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
-  <script src="{{ asset('vendor/dewi/assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
-  <script src="{{ asset('vendor/dewi/assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
-  <!-- <script src="{{ asset('vendor/dewi/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
-  <script src="{{ asset('vendor/dewi/assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script> -->
+  <script src="{{ asset('vendor/bloggy/assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  {{-- <script src="{{ asset('vendor/bloggy/assets/vendor/php-email-form/validate.js') }}"></script> --}}
+  <script src="{{ asset('vendor/bloggy/assets/vendor/aos/aos.js') }}"></script>
+  <script src="{{ asset('vendor/bloggy/assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+  <script src="{{ asset('vendor/bloggy/assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+  <script src="{{ asset('vendor/bloggy/assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+  <!-- <script src="{{ asset('vendor/bloggy/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
+  <script src="{{ asset('vendor/bloggy/assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script> -->
 
   <!-- Main JS File -->
-  <script src="{{ asset('vendor/dewi/assets/js/main.js') }}"></script>
-
+  <script src="{{ asset('vendor/bloggy/assets/js/main.js') }}"></script>
 
   
 
