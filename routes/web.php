@@ -43,6 +43,10 @@ Route::get('/sdg-alignment', 'IndexController@getSDGAlignment')->name('index.sdg
 Route::get('/social-impact', 'IndexController@getSocialimpact')->name('index.social-impact');
 
 // blog
+// blog
+// blog
+// blog
+// blog
 Route::get('/blogs', 'BlogController@index')->name('blogs.index');
 // Route::resource('blogs','BlogController');
 Route::get('blog/{slug}',['as' => 'blog.single', 'uses' => 'BlogController@getBlogPost']);
@@ -51,6 +55,11 @@ Route::get('/like/{blog_id}',['as' => 'blog.like', 'uses' => 'BlogController@lik
 Route::get('/check/like/{blog_id}',['as' => 'blog.checklike', 'uses' => 'BlogController@checkLikeAPI']);
 Route::get('/blogs/category/{name}',['as' => 'blog.categorywise', 'uses' => 'BlogController@getCategoryWise']);
 Route::get('/blogs/archive/{date}',['as' => 'blog.monthwise', 'uses' => 'BlogController@getMonthWise']);
+// blog
+// blog
+// blog
+// blog
+// blog
 
 // PDFs
 Route::get('/single/exam/pdf/{softtoken}/{examid}', 'IndexController@getExamSolvePDF')->name('index.single.exam.solve.pdf');
