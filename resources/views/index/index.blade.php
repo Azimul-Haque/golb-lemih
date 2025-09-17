@@ -1,12 +1,12 @@
 @extends('layouts.index')
-@section('title') CactusNANO - develops powerful, long-lasting antimicrobial, antifouling technology @endsection
+@section('title') Blog @endsection
 
 @section('third_party_stylesheets')
 
 @endsection
 
 @section('content')
-    
+
 
 
 @endsection
