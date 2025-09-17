@@ -46,7 +46,7 @@
   
 </head>
 
-<body>
+<body class="index-page">
   @include('layouts.header')
 
   
