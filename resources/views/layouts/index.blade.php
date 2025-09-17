@@ -52,7 +52,7 @@
   
   
   <main class="main">
-    @yield('content')
+    <!-- @yield('content') -->
 
     
 
