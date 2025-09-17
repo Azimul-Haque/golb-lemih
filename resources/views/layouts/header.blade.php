@@ -1,4 +1,4 @@
-<header id="header" class="header d-flex align-items-center fixed-top">
+<!-- <header id="header" class="header d-flex align-items-center fixed-top">
   <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
     <a href="{{ route('index.index') }}" class="logo d-flex align-items-center me-auto">
@@ -102,11 +102,11 @@
     {{-- <a class="cta-btn" href="{{ route('index.get-contact') }}">Contact Us</a> --}}
 
   </div>
-</header>
+</header> -->
 
 
 
-<header id="header" class="header position-relative">
+<header id="header" class="header position-relative fixed-top">
     <div class="container-fluid container-xl position-relative">
 
       <div class="top-row d-flex align-items-center justify-content-between">
