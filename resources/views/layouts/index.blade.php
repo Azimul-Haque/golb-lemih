@@ -59,7 +59,7 @@
   </main>
 
   <!-- Start Footer Area -->
-  <!-- @include('layouts.footer') -->
+  
   <!--/ End Footer Area -->
 
   <!-- Scroll Top -->
