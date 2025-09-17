@@ -84,7 +84,9 @@
   <script src="{{ asset('vendor/dewi/assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script> -->
 
   <!-- Main JS File -->
-  <script src="{{ asset('vendor/dewi/assets/js/main.js') }}"></script
+  <script src="{{ asset('vendor/dewi/assets/js/main.js') }}"></script>
+
+
   
 
   @yield('third_party_scripts')
