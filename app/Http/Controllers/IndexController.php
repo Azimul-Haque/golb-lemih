@@ -45,13 +45,13 @@ class IndexController extends Controller
      */
     public function __construct()
     {
-        View::share('productsforfooter', Cache::remember('products_for_footer', 60 * 24 * 30, function () {
-            return Product::orderBy('serial', 'asc')->get()->take(6);
-        }));
+        // View::share('productsforfooter', Cache::remember('products_for_footer', 60 * 24 * 30, function () {
+        //     return Product::orderBy('serial', 'asc')->get()->take(6);
+        // }));
 
-        View::share('marketsforfooter', Cache::remember('markets_for_footer', 60 * 24 * 30, function () {
-            return Market::orderBy('serial', 'asc')->get()->take(6);
-        }));
+        // View::share('marketsforfooter', Cache::remember('markets_for_footer', 60 * 24 * 30, function () {
+        //     return Market::orderBy('serial', 'asc')->get()->take(6);
+        // }));
     }
 
     /**
