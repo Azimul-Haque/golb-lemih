@@ -42,7 +42,7 @@
 
   <!-- Main CSS File -->
   <link href="{{ asset('vendor/bloggy/assets/css/main.css') }}" rel="stylesheet">
-  <link href="vendor/bloggy/assets/css/main.css'" rel="stylesheet">
+  <link href="public/vendor/bloggy/assets/css/main.css" rel="stylesheet">
   @yield('third_party_stylesheets')
   
 </head>
