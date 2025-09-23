@@ -47,7 +47,7 @@
 </head>
 
 <body class="index-page">
-  <!-- @include('layouts.header') -->
+  
 
   
   
@@ -59,7 +59,7 @@
   </main>
 
   <!-- Start Footer Area -->
-  <!-- @include('layouts.footer') -->
+  
   <!--/ End Footer Area -->
 
   <!-- Scroll Top -->
