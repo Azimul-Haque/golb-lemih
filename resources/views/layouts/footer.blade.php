@@ -68,7 +68,7 @@
   </div>
 
   <div class="container copyright text-center mt-4">
-    <p>© {{ date('Y') }} <span>Copyright</span> <strong class="px-1 sitename">Blogy</strong> <span>All Rights Reserved</span></p>
+    <p>© {{ date('Y') }} <span>Copyright</span> <strong class="px-1 sitename">Blog Name</strong> <span>All Rights Reserved</span></p>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->
       <!-- You can delete the links only if you've purchased the pro version. -->
