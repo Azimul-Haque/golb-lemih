@@ -16,7 +16,7 @@
 
 	      <!-- Featured Post (Large) -->
 	      <article class="blog-item featured" data-aos="fade-up">
-	        <img src="assets/img/blog/blog-post-3.webp" alt="Blog Image" class="img-fluid">
+	        <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-3.webp" alt="Blog Image" class="img-fluid">
 	        <div class="blog-content">
 	          <div class="post-meta">
 	            <span class="date">Apr. 14th, 2025</span>
@@ -30,7 +30,7 @@
 
 	      <!-- Regular Posts -->
 	      <article class="blog-item" data-aos="fade-up" data-aos-delay="100">
-	        <img src="assets/img/blog/blog-post-portrait-1.webp" alt="Blog Image" class="img-fluid">
+	        <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-portrait-1.webp" alt="Blog Image" class="img-fluid">
 	        <div class="blog-content">
 	          <div class="post-meta">
 	            <span class="date">Apr. 14th, 2025</span>
@@ -43,7 +43,7 @@
 	      </article><!-- End Blog Item -->
 
 	      <article class="blog-item" data-aos="fade-up" data-aos-delay="200">
-	        <img src="assets/img/blog/blog-post-9.webp" alt="Blog Image" class="img-fluid">
+	        <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-9.webp" alt="Blog Image" class="img-fluid">
 	        <div class="blog-content">
 	          <div class="post-meta">
 	            <span class="date">Apr. 14th, 2025</span>
@@ -56,7 +56,7 @@
 	      </article><!-- End Blog Item -->
 
 	      <article class="blog-item" data-aos="fade-up" data-aos-delay="300">
-	        <img src="assets/img/blog/blog-post-7.webp" alt="Blog Image" class="img-fluid">
+	        <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-7.webp" alt="Blog Image" class="img-fluid">
 	        <div class="blog-content">
 	          <div class="post-meta">
 	            <span class="date">Apr. 14th, 2025</span>
@@ -69,7 +69,7 @@
 	      </article><!-- End Blog Item -->
 
 	      <article class="blog-item" data-aos="fade-up" data-aos-delay="400">
-	        <img src="assets/img/blog/blog-post-6.webp" alt="Blog Image" class="img-fluid">
+	        <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-6.webp" alt="Blog Image" class="img-fluid">
 	        <div class="blog-content">
 	          <div class="post-meta">
 	            <span class="date">Apr. 14th, 2025</span>
@@ -129,7 +129,7 @@
 	      <div class="swiper-wrapper">
 	        <div class="swiper-slide">
 	          <div class="blog-post-item">
-	            <img src="assets/img/blog/blog-post-portrait-1.webp" alt="Blog Image">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-portrait-1.webp" alt="Blog Image">
 	            <div class="blog-post-content">
 	              <div class="post-meta">
 	                <span><i class="bi bi-person"></i> Julia Parker</span>
@@ -145,7 +145,7 @@
 
 	        <div class="swiper-slide">
 	          <div class="blog-post-item">
-	            <img src="assets/img/blog/blog-post-portrait-2.webp" alt="Blog Image">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-portrait-2.webp" alt="Blog Image">
 	            <div class="blog-post-content">
 	              <div class="post-meta">
 	                <span><i class="bi bi-person"></i> Mark Wilson</span>
@@ -161,7 +161,7 @@
 
 	        <div class="swiper-slide">
 	          <div class="blog-post-item">
-	            <img src="assets/img/blog/blog-post-portrait-3.webp" alt="Blog Image">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-portrait-3.webp" alt="Blog Image">
 	            <div class="blog-post-content">
 	              <div class="post-meta">
 	                <span><i class="bi bi-person"></i> Sarah Johnson</span>
@@ -177,7 +177,7 @@
 
 	        <div class="swiper-slide">
 	          <div class="blog-post-item">
-	            <img src="assets/img/blog/blog-post-portrait-4.webp" alt="Blog Image">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-portrait-4.webp" alt="Blog Image">
 	            <div class="blog-post-content">
 	              <div class="post-meta">
 	                <span><i class="bi bi-person"></i> David Brown</span>
@@ -193,7 +193,7 @@
 
 	        <div class="swiper-slide">
 	          <div class="blog-post-item">
-	            <img src="assets/img/blog/blog-post-portrait-5.webp" alt="Blog Image">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-portrait-5.webp" alt="Blog Image">
 	            <div class="blog-post-content">
 	              <div class="post-meta">
 	                <span><i class="bi bi-person"></i> Emma Davis</span>
@@ -229,13 +229,13 @@
 	      <div class="col-lg-4">
 	        <article class="featured-post">
 	          <div class="post-img">
-	            <img src="assets/img/blog/blog-post-6.webp" alt="" class="img-fluid" loading="lazy">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-6.webp') }}" alt="" class="img-fluid" loading="lazy">
 	          </div>
 	          <div class="post-content">
 	            <div class="category-meta">
 	              <span class="post-category">Health</span>
 	              <div class="author-meta">
-	                <img src="assets/img/person/person-f-13.webp" alt="" class="author-img">
+	                <img src="{{ asset('vendor/bloggy/assets/img/person/person-f-13.webp') }}" alt="" class="author-img">
 	                <span class="author-name">William G.</span>
 	                <span class="post-date">28 April 2024</span>
 	              </div>
@@ -250,13 +250,13 @@
 	      <div class="col-lg-4">
 	        <article class="featured-post">
 	          <div class="post-img">
-	            <img src="assets/img/blog/blog-post-7.webp" alt="" class="img-fluid" loading="lazy">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-7.webp') }}" alt="" class="img-fluid" loading="lazy">
 	          </div>
 	          <div class="post-content">
 	            <div class="category-meta">
 	              <span class="post-category">Education</span>
 	              <div class="author-meta">
-	                <img src="assets/img/person/person-m-10.webp" alt="" class="author-img">
+	                <img src="{{ asset('vendor/bloggy/assets/img/person/person-m-10.webp') }}" alt="" class="author-img">
 	                <span class="author-name">Emma D.</span>
 	                <span class="post-date">30 May 2024</span>
 	              </div>
@@ -271,13 +271,13 @@
 	      <div class="col-lg-4">
 	        <article class="featured-post">
 	          <div class="post-img">
-	            <img src="assets/img/blog/blog-post-5.webp" alt="" class="img-fluid" loading="lazy">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-5.webp') }}" alt="" class="img-fluid" loading="lazy">
 	          </div>
 	          <div class="post-content">
 	            <div class="category-meta">
 	              <span class="post-category">Gaming</span>
 	              <div class="author-meta">
-	                <img src="assets/img/person/person-f-14.webp" alt="" class="author-img">
+	                <img src="{{ asset('vendor/bloggy/assets/img/person/person-f-14.webp') }}" alt="" class="author-img">
 	                <span class="author-name">James F.</span>
 	                <span class="post-date">3 June 2024</span>
 	              </div>
@@ -295,7 +295,7 @@
 	      <div class="col-xl-4 col-lg-6">
 	        <article class="list-post">
 	          <div class="post-img">
-	            <img src="assets/img/blog/blog-post-6.webp" alt="" class="img-fluid" loading="lazy">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-6.webp') }}" alt="" class="img-fluid" loading="lazy">
 	          </div>
 	          <div class="post-content">
 	            <div class="category-meta">
@@ -315,7 +315,7 @@
 	      <div class="col-xl-4 col-lg-6">
 	        <article class="list-post">
 	          <div class="post-img">
-	            <img src="assets/img/blog/blog-post-9.webp" alt="" class="img-fluid" loading="lazy">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-9.webp') }}" alt="" class="img-fluid" loading="lazy">
 	          </div>
 	          <div class="post-content">
 	            <div class="category-meta">
@@ -335,7 +335,7 @@
 	      <div class="col-xl-4 col-lg-6">
 	        <article class="list-post">
 	          <div class="post-img">
-	            <img src="assets/img/blog/blog-post-10.webp" alt="" class="img-fluid" loading="lazy">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-10.webp') }}" alt="" class="img-fluid" loading="lazy">
 	          </div>
 	          <div class="post-content">
 	            <div class="category-meta">
@@ -355,7 +355,7 @@
 	      <div class="col-xl-4 col-lg-6">
 	        <article class="list-post">
 	          <div class="post-img">
-	            <img src="assets/img/blog/blog-post-2.webp" alt="" class="img-fluid" loading="lazy">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-2.webp') }}" alt="" class="img-fluid" loading="lazy">
 	          </div>
 	          <div class="post-content">
 	            <div class="category-meta">
@@ -375,7 +375,7 @@
 	      <div class="col-xl-4 col-lg-6">
 	        <article class="list-post">
 	          <div class="post-img">
-	            <img src="assets/img/blog/blog-post-1.webp" alt="" class="img-fluid" loading="lazy">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-1.webp') }}" alt="" class="img-fluid" loading="lazy">
 	          </div>
 	          <div class="post-content">
 	            <div class="category-meta">
@@ -395,7 +395,7 @@
 	      <div class="col-xl-4 col-lg-6">
 	        <article class="list-post">
 	          <div class="post-img">
-	            <img src="assets/img/blog/blog-post-3.webp" alt="" class="img-fluid" loading="lazy">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-3.webp') }}" alt="" class="img-fluid" loading="lazy">
 	          </div>
 	          <div class="post-content">
 	            <div class="category-meta">
@@ -450,7 +450,7 @@
 	      </div>
 
 	      <div class="content-right position-relative" data-aos="fade-left" data-aos-delay="300">
-	        <img src="assets/img/misc/misc-1.webp" alt="Digital Platform" class="img-fluid rounded-4">
+	        <img src="{{ asset('vendor/bloggy/assets/img/misc/misc-1.webp" alt="Digital Platform" class="img-fluid rounded-4">
 	        <div class="floating-card">
 	          <div class="card-icon">
 	            <i class="bi bi-graph-up-arrow"></i>
@@ -489,7 +489,7 @@
 	        <article>
 
 	          <div class="post-img">
-	            <img src="assets/img/blog/blog-post-1.webp" alt="" class="img-fluid">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-1.webp') }}" alt="" class="img-fluid">
 	          </div>
 
 	          <p class="post-category">Politics</p>
@@ -499,7 +499,7 @@
 	          </h2>
 
 	          <div class="d-flex align-items-center">
-	            <img src="assets/img/person/person-f-12.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
+	            <img src="{{ asset('vendor/bloggy/assets/img/person/person-f-12.webp') }}" alt="" class="img-fluid post-author-img flex-shrink-0">
 	            <div class="post-meta">
 	              <p class="post-author">Maria Doe</p>
 	              <p class="post-date">
@@ -515,7 +515,7 @@
 	        <article>
 
 	          <div class="post-img">
-	            <img src="assets/img/blog/blog-post-2.webp" alt="" class="img-fluid">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-2.webp') }}" alt="" class="img-fluid">
 	          </div>
 
 	          <p class="post-category">Sports</p>
@@ -525,7 +525,7 @@
 	          </h2>
 
 	          <div class="d-flex align-items-center">
-	            <img src="assets/img/person/person-f-13.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
+	            <img src="{{ asset('vendor/bloggy/assets/img/person/person-f-13.webp') }}" alt="" class="img-fluid post-author-img flex-shrink-0">
 	            <div class="post-meta">
 	              <p class="post-author">Allisa Mayer</p>
 	              <p class="post-date">
@@ -541,7 +541,7 @@
 	        <article>
 
 	          <div class="post-img">
-	            <img src="assets/img/blog/blog-post-3.webp" alt="" class="img-fluid">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-3.webp') }}" alt="" class="img-fluid">
 	          </div>
 
 	          <p class="post-category">Entertainment</p>
@@ -551,7 +551,7 @@
 	          </h2>
 
 	          <div class="d-flex align-items-center">
-	            <img src="assets/img/person/person-m-10.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
+	            <img src="{{ asset('vendor/bloggy/assets/img/person/person-m-10.webp') }}" alt="" class="img-fluid post-author-img flex-shrink-0">
 	            <div class="post-meta">
 	              <p class="post-author">Mark Dower</p>
 	              <p class="post-date">
@@ -567,7 +567,7 @@
 	        <article>
 
 	          <div class="post-img">
-	            <img src="assets/img/blog/blog-post-4.webp" alt="" class="img-fluid">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-4.webp') }}" alt="" class="img-fluid">
 	          </div>
 
 	          <p class="post-category">Sports</p>
@@ -577,7 +577,7 @@
 	          </h2>
 
 	          <div class="d-flex align-items-center">
-	            <img src="assets/img/person/person-f-14.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
+	            <img src="{{ asset('vendor/bloggy/assets/img/person/person-f-14.webp') }}" alt="" class="img-fluid post-author-img flex-shrink-0">
 	            <div class="post-meta">
 	              <p class="post-author">Lisa Neymar</p>
 	              <p class="post-date">
@@ -593,7 +593,7 @@
 	        <article>
 
 	          <div class="post-img">
-	            <img src="assets/img/blog/blog-post-5.webp" alt="" class="img-fluid">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-5.webp') }}" alt="" class="img-fluid">
 	          </div>
 
 	          <p class="post-category">Politics</p>
@@ -603,7 +603,7 @@
 	          </h2>
 
 	          <div class="d-flex align-items-center">
-	            <img src="assets/img/person/person-m-11.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
+	            <img src="{{ asset('vendor/bloggy/assets/img/person/person-m-11.webp') }}" alt="" class="img-fluid post-author-img flex-shrink-0">
 	            <div class="post-meta">
 	              <p class="post-author">Denis Peterson</p>
 	              <p class="post-date">
@@ -619,7 +619,7 @@
 	        <article>
 
 	          <div class="post-img">
-	            <img src="assets/img/blog/blog-post-6.webp" alt="" class="img-fluid">
+	            <img src="{{ asset('vendor/bloggy/assets/img/blog/blog-post-6.webp') }}" alt="" class="img-fluid">
 	          </div>
 
 	          <p class="post-category">Entertainment</p>
@@ -629,7 +629,7 @@
 	          </h2>
 
 	          <div class="d-flex align-items-center">
-	            <img src="assets/img/person/person-f-15.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
+	            <img src="{{ asset('vendor/bloggy/assets/img/person/person-f-15.webp') }}" alt="" class="img-fluid post-author-img flex-shrink-0">
 	            <div class="post-meta">
 	              <p class="post-author">Mika Lendon</p>
 	              <p class="post-date">
@@ -667,7 +667,7 @@
 	      </div>
 	      <div class="col-lg-4">
 	        <div class="cta-image" data-aos="zoom-out" data-aos-delay="200">
-	          <img src="assets/img/cta/cta-1.webp" alt="" class="img-fluid">
+	          <img src="{{ asset('vendor/bloggy/assets/img/cta/cta-1.webp') }}" alt="" class="img-fluid">
 	        </div>
 	      </div>
 	    </div>
